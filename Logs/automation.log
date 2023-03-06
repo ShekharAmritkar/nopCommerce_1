@@ -1396,3 +1396,317 @@
 2023-03-06 21:40:41,944  INFO [main] nopCommerce:93 - ************* clicking on logout *****************
 2023-03-06 21:40:47,433  INFO [main] nopCommerce:86 - ************* Login Passed *****************
 2023-03-06 21:40:47,452  INFO [main] nopCommerce:100 - ************* closing browser *****************
+2023-03-06 23:20:33,903 DEBUG [main] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2023-03-06 23:20:33,919 DEBUG [main] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2023-03-06 23:20:33,920 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2023-03-06 23:20:33,931 DEBUG [main] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6175619b
+2023-03-06 23:20:33,983 DEBUG [main] PlatformDependent0:496 - -Dio.netty.noUnsafe: false
+2023-03-06 23:20:33,985 DEBUG [main] PlatformDependent0:1000 - Java version: 19
+2023-03-06 23:20:33,991 DEBUG [main] PlatformDependent0:137 - sun.misc.Unsafe.theUnsafe: available
+2023-03-06 23:20:33,993 DEBUG [main] PlatformDependent0:161 - sun.misc.Unsafe.copyMemory: available
+2023-03-06 23:20:33,995 DEBUG [main] PlatformDependent0:193 - sun.misc.Unsafe.storeFence: available
+2023-03-06 23:20:33,998 DEBUG [main] PlatformDependent0:236 - java.nio.Buffer.address: available
+2023-03-06 23:20:34,000 DEBUG [main] PlatformDependent0:320 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-03-06 23:20:34,002 DEBUG [main] PlatformDependent0:385 - java.nio.Bits.unaligned: available, true
+2023-03-06 23:20:34,006 DEBUG [main] PlatformDependent0:452 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5474c6c
+2023-03-06 23:20:34,009 DEBUG [main] PlatformDependent0:482 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-03-06 23:20:34,010 DEBUG [main] PlatformDependent:1159 - sun.misc.Unsafe: available
+2023-03-06 23:20:34,033 DEBUG [main] PlatformDependent:1270 - maxDirectMemory: 2118123520 bytes (maybe)
+2023-03-06 23:20:34,035 DEBUG [main] PlatformDependent:1289 - -Dio.netty.tmpdir: C:\Users\91758\AppData\Local\Temp (java.io.tmpdir)
+2023-03-06 23:20:34,036 DEBUG [main] PlatformDependent:1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-03-06 23:20:34,037 DEBUG [main] PlatformDependent:1119 - Platform: Windows
+2023-03-06 23:20:34,040 DEBUG [main] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2023-03-06 23:20:34,041 DEBUG [main] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-03-06 23:20:34,045 DEBUG [main] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2023-03-06 23:20:34,046 DEBUG [main] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2023-03-06 23:20:34,059 DEBUG [main] PlatformDependent:1010 - org.jctools-core.MpscChunkedArrayQueue: available
+2023-03-06 23:20:34,111 DEBUG [main] InternalThreadLocalMap:100 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-03-06 23:20:34,113 DEBUG [main] InternalThreadLocalMap:101 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-03-06 23:20:34,637 DEBUG [main] JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-03-06 23:20:34,638 DEBUG [main] JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-03-06 23:20:34,689 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2023-03-06 23:20:34,714 DEBUG [main] NioEventLoop:110 - -Dio.netty.noKeySetOptimization: false
+2023-03-06 23:20:34,715 DEBUG [main] NioEventLoop:111 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-03-06 23:20:34,815 DEBUG [main] PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 8
+2023-03-06 23:20:34,816 DEBUG [main] PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 8
+2023-03-06 23:20:34,816 DEBUG [main] PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2023-03-06 23:20:34,817 DEBUG [main] PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2023-03-06 23:20:34,818 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2023-03-06 23:20:34,819 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2023-03-06 23:20:34,820 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2023-03-06 23:20:34,821 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-03-06 23:20:34,822 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-03-06 23:20:34,822 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-03-06 23:20:34,823 DEBUG [main] PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-03-06 23:20:34,824 DEBUG [main] PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-03-06 23:20:34,848 DEBUG [main] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2023-03-06 23:20:34,850 DEBUG [main] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-03-06 23:20:34,850 DEBUG [main] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-03-06 23:20:37,878 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 1488 (auto-detected)
+2023-03-06 23:20:37,882 DEBUG [Forwarding newSession on session null to remote] NetUtil:142 - -Djava.net.preferIPv4Stack: false
+2023-03-06 23:20:37,883 DEBUG [Forwarding newSession on session null to remote] NetUtil:143 - -Djava.net.preferIPv6Addresses: false
+2023-03-06 23:20:37,904 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:139 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-03-06 23:20:37,907 DEBUG [Forwarding newSession on session null to remote] NetUtil:200 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-03-06 23:20:37,954 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: 28:c6:3f:ff:fe:06:12:ba (auto-detected)
+2023-03-06 23:20:38,059 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2023-03-06 23:20:38,059 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2023-03-06 23:20:38,060 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7217fdff
+2023-03-06 23:20:38,125 DEBUG [AsyncHttpClient-1-2] Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-03-06 23:20:38,129 DEBUG [AsyncHttpClient-1-2] Recycler:86 - -Dio.netty.recycler.ratio: 8
+2023-03-06 23:20:38,130 DEBUG [AsyncHttpClient-1-2] Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2023-03-06 23:20:38,131 DEBUG [AsyncHttpClient-1-2] Recycler:88 - -Dio.netty.recycler.blocking: false
+2023-03-06 23:20:40,812 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-03-06 23:20:41,204 DEBUG [main] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x5ed1608f6efd8993
+2023-03-06 23:20:41,419  INFO [main] nopCommerce:55 - ************* Launching Browser *****************
+2023-03-06 23:20:41,796  INFO [main] nopCommerce:61 - ************* Opening URL  *****************
+2023-03-06 23:20:44,014  INFO [main] nopCommerce:68 - ************* Prvding user and password *****************
+2023-03-06 23:20:44,670  INFO [main] nopCommerce:75 - ************* click on login *****************
+2023-03-06 23:20:50,120  INFO [main] nopCommerce:109 - ********* Verifying Dashboard page title after login successful **************
+2023-03-06 23:20:52,277  INFO [main] nopCommerce:116 - ********* Clicking on customer main menu **************
+2023-03-06 23:20:54,463  INFO [main] nopCommerce:123 - ********* Clicking on customer sub menu **************
+2023-03-06 23:21:02,389  INFO [main] nopCommerce:140 - ********* Adding new customer **************
+2023-03-06 23:21:02,391  INFO [main] nopCommerce:141 - ********* Providing customer details **************
+2023-03-06 23:21:20,930  INFO [main] nopCommerce:162 - ********* Saving customer details **************
+2023-03-06 23:21:26,701  INFO [main] nopCommerce:100 - ************* closing browser *****************
+2023-03-06 23:21:36,398  INFO [main] nopCommerce:55 - ************* Launching Browser *****************
+2023-03-06 23:21:36,401  INFO [main] nopCommerce:61 - ************* Opening URL  *****************
+2023-03-06 23:21:38,790  INFO [main] nopCommerce:68 - ************* Prvding user and password *****************
+2023-03-06 23:21:39,340  INFO [main] nopCommerce:75 - ************* click on login *****************
+2023-03-06 23:21:45,187  INFO [main] nopCommerce:109 - ********* Verifying Dashboard page title after login successful **************
+2023-03-06 23:21:47,265  INFO [main] nopCommerce:116 - ********* Clicking on customer main menu **************
+2023-03-06 23:21:49,421  INFO [main] nopCommerce:123 - ********* Clicking on customer sub menu **************
+2023-03-06 23:21:52,268  INFO [main] nopCommerce:178 - ********* Searching customer details by Email **************
+2023-03-06 23:21:56,063  INFO [main] nopCommerce:100 - ************* closing browser *****************
+2023-03-06 23:22:04,834  INFO [main] nopCommerce:55 - ************* Launching Browser *****************
+2023-03-06 23:22:04,844  INFO [main] nopCommerce:61 - ************* Opening URL  *****************
+2023-03-06 23:22:06,354  INFO [main] nopCommerce:68 - ************* Prvding user and password *****************
+2023-03-06 23:22:07,166  INFO [main] nopCommerce:75 - ************* click on login *****************
+2023-03-06 23:22:12,706  INFO [main] nopCommerce:109 - ********* Verifying Dashboard page title after login successful **************
+2023-03-06 23:22:14,952  INFO [main] nopCommerce:116 - ********* Clicking on customer main menu **************
+2023-03-06 23:22:17,289  INFO [main] nopCommerce:123 - ********* Clicking on customer sub menu **************
+2023-03-06 23:22:19,659  INFO [main] nopCommerce:198 - ********* Searching customer details by Name **************
+2023-03-06 23:22:23,332  INFO [main] nopCommerce:100 - ************* closing browser *****************
+2023-03-06 23:22:32,135  INFO [main] nopCommerce:55 - ************* Launching Browser *****************
+2023-03-06 23:22:32,137  INFO [main] nopCommerce:61 - ************* Opening URL  *****************
+2023-03-06 23:22:34,349  INFO [main] nopCommerce:68 - ************* Prvding user and password *****************
+2023-03-06 23:22:34,845  INFO [main] nopCommerce:75 - ************* click on login *****************
+2023-03-06 23:22:41,224  INFO [main] nopCommerce:86 - ************* Login Passed *****************
+2023-03-06 23:22:41,314  INFO [main] nopCommerce:93 - ************* clicking on logout *****************
+2023-03-06 23:22:49,203  INFO [main] nopCommerce:55 - ************* Launching Browser *****************
+2023-03-06 23:22:49,206  INFO [main] nopCommerce:61 - ************* Opening URL  *****************
+2023-03-06 23:22:50,381  INFO [main] nopCommerce:68 - ************* Prvding user and password *****************
+2023-03-06 23:22:50,845  INFO [main] nopCommerce:75 - ************* click on login *****************
+2023-03-06 23:22:55,311  INFO [main] nopCommerce:86 - ************* Login Passed *****************
+2023-03-06 23:22:55,324  INFO [main] nopCommerce:93 - ************* clicking on logout *****************
+2023-03-06 23:23:00,522  INFO [main] nopCommerce:86 - ************* Login Passed *****************
+2023-03-06 23:23:00,540  INFO [main] nopCommerce:100 - ************* closing browser *****************
+2023-03-06 23:24:41,901 DEBUG [main] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2023-03-06 23:24:41,924 DEBUG [main] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2023-03-06 23:24:41,925 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2023-03-06 23:24:41,936 DEBUG [main] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6175619b
+2023-03-06 23:24:41,962 DEBUG [main] PlatformDependent0:496 - -Dio.netty.noUnsafe: false
+2023-03-06 23:24:41,963 DEBUG [main] PlatformDependent0:1000 - Java version: 19
+2023-03-06 23:24:41,968 DEBUG [main] PlatformDependent0:137 - sun.misc.Unsafe.theUnsafe: available
+2023-03-06 23:24:41,970 DEBUG [main] PlatformDependent0:161 - sun.misc.Unsafe.copyMemory: available
+2023-03-06 23:24:41,971 DEBUG [main] PlatformDependent0:193 - sun.misc.Unsafe.storeFence: available
+2023-03-06 23:24:41,973 DEBUG [main] PlatformDependent0:236 - java.nio.Buffer.address: available
+2023-03-06 23:24:41,976 DEBUG [main] PlatformDependent0:320 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-03-06 23:24:41,978 DEBUG [main] PlatformDependent0:385 - java.nio.Bits.unaligned: available, true
+2023-03-06 23:24:41,980 DEBUG [main] PlatformDependent0:452 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5474c6c
+2023-03-06 23:24:41,984 DEBUG [main] PlatformDependent0:482 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-03-06 23:24:41,985 DEBUG [main] PlatformDependent:1159 - sun.misc.Unsafe: available
+2023-03-06 23:24:42,004 DEBUG [main] PlatformDependent:1270 - maxDirectMemory: 2118123520 bytes (maybe)
+2023-03-06 23:24:42,005 DEBUG [main] PlatformDependent:1289 - -Dio.netty.tmpdir: C:\Users\91758\AppData\Local\Temp (java.io.tmpdir)
+2023-03-06 23:24:42,006 DEBUG [main] PlatformDependent:1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-03-06 23:24:42,007 DEBUG [main] PlatformDependent:1119 - Platform: Windows
+2023-03-06 23:24:42,009 DEBUG [main] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2023-03-06 23:24:42,010 DEBUG [main] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-03-06 23:24:42,013 DEBUG [main] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2023-03-06 23:24:42,013 DEBUG [main] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2023-03-06 23:24:42,028 DEBUG [main] PlatformDependent:1010 - org.jctools-core.MpscChunkedArrayQueue: available
+2023-03-06 23:24:42,053 DEBUG [main] InternalThreadLocalMap:100 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-03-06 23:24:42,054 DEBUG [main] InternalThreadLocalMap:101 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-03-06 23:24:42,458 DEBUG [main] JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-03-06 23:24:42,459 DEBUG [main] JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-03-06 23:24:42,521 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2023-03-06 23:24:42,543 DEBUG [main] NioEventLoop:110 - -Dio.netty.noKeySetOptimization: false
+2023-03-06 23:24:42,544 DEBUG [main] NioEventLoop:111 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-03-06 23:24:42,656 DEBUG [main] PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 8
+2023-03-06 23:24:42,658 DEBUG [main] PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 8
+2023-03-06 23:24:42,659 DEBUG [main] PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2023-03-06 23:24:42,660 DEBUG [main] PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2023-03-06 23:24:42,661 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2023-03-06 23:24:42,662 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2023-03-06 23:24:42,664 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2023-03-06 23:24:42,666 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-03-06 23:24:42,668 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-03-06 23:24:42,676 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-03-06 23:24:42,686 DEBUG [main] PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-03-06 23:24:42,690 DEBUG [main] PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-03-06 23:24:42,746 DEBUG [main] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2023-03-06 23:24:42,748 DEBUG [main] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-03-06 23:24:42,749 DEBUG [main] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-03-06 23:24:45,764 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 16516 (auto-detected)
+2023-03-06 23:24:45,768 DEBUG [Forwarding newSession on session null to remote] NetUtil:142 - -Djava.net.preferIPv4Stack: false
+2023-03-06 23:24:45,769 DEBUG [Forwarding newSession on session null to remote] NetUtil:143 - -Djava.net.preferIPv6Addresses: false
+2023-03-06 23:24:45,787 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:139 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-03-06 23:24:45,789 DEBUG [Forwarding newSession on session null to remote] NetUtil:200 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-03-06 23:24:45,825 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: 28:c6:3f:ff:fe:06:12:ba (auto-detected)
+2023-03-06 23:24:45,909 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2023-03-06 23:24:45,910 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2023-03-06 23:24:45,911 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7838dbf2
+2023-03-06 23:24:45,979 DEBUG [AsyncHttpClient-1-2] Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-03-06 23:24:45,982 DEBUG [AsyncHttpClient-1-2] Recycler:86 - -Dio.netty.recycler.ratio: 8
+2023-03-06 23:24:45,984 DEBUG [AsyncHttpClient-1-2] Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2023-03-06 23:24:45,985 DEBUG [AsyncHttpClient-1-2] Recycler:88 - -Dio.netty.recycler.blocking: false
+2023-03-06 23:24:47,951 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-03-06 23:24:48,258 DEBUG [main] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x7015e11c8920df55
+2023-03-06 23:24:48,419  INFO [main] nopCommerce:55 - ************* Launching Browser *****************
+2023-03-06 23:24:48,637  INFO [main] nopCommerce:61 - ************* Opening URL  *****************
+2023-03-06 23:24:51,802  INFO [main] nopCommerce:68 - ************* Prvding user and password *****************
+2023-03-06 23:24:52,429  INFO [main] nopCommerce:75 - ************* click on login *****************
+2023-03-06 23:24:58,129  INFO [main] nopCommerce:109 - ********* Verifying Dashboard page title after login successful **************
+2023-03-06 23:25:00,271  INFO [main] nopCommerce:116 - ********* Clicking on customer main menu **************
+2023-03-06 23:25:02,534  INFO [main] nopCommerce:123 - ********* Clicking on customer sub menu **************
+2023-03-06 23:25:09,844  INFO [main] nopCommerce:140 - ********* Adding new customer **************
+2023-03-06 23:25:09,846  INFO [main] nopCommerce:141 - ********* Providing customer details **************
+2023-03-06 23:25:27,572  INFO [main] nopCommerce:162 - ********* Saving customer details **************
+2023-03-06 23:25:32,459  INFO [main] nopCommerce:100 - ************* closing browser *****************
+2023-03-06 23:25:40,846  INFO [main] nopCommerce:55 - ************* Launching Browser *****************
+2023-03-06 23:25:40,881  INFO [main] nopCommerce:61 - ************* Opening URL  *****************
+2023-03-06 23:25:42,837  INFO [main] nopCommerce:68 - ************* Prvding user and password *****************
+2023-03-06 23:25:43,614  INFO [main] nopCommerce:75 - ************* click on login *****************
+2023-03-06 23:25:51,828  INFO [main] nopCommerce:109 - ********* Verifying Dashboard page title after login successful **************
+2023-03-06 23:25:54,025  INFO [main] nopCommerce:116 - ********* Clicking on customer main menu **************
+2023-03-06 23:25:56,299  INFO [main] nopCommerce:123 - ********* Clicking on customer sub menu **************
+2023-03-06 23:25:58,627  INFO [main] nopCommerce:178 - ********* Searching customer details by Email **************
+2023-03-06 23:26:02,198  INFO [main] nopCommerce:100 - ************* closing browser *****************
+2023-03-06 23:26:09,130  INFO [main] nopCommerce:55 - ************* Launching Browser *****************
+2023-03-06 23:26:09,133  INFO [main] nopCommerce:61 - ************* Opening URL  *****************
+2023-03-06 23:26:11,659  INFO [main] nopCommerce:68 - ************* Prvding user and password *****************
+2023-03-06 23:26:12,495  INFO [main] nopCommerce:75 - ************* click on login *****************
+2023-03-06 23:26:19,297  INFO [main] nopCommerce:109 - ********* Verifying Dashboard page title after login successful **************
+2023-03-06 23:26:21,365  INFO [main] nopCommerce:116 - ********* Clicking on customer main menu **************
+2023-03-06 23:26:23,658  INFO [main] nopCommerce:123 - ********* Clicking on customer sub menu **************
+2023-03-06 23:26:25,421  INFO [main] nopCommerce:198 - ********* Searching customer details by Name **************
+2023-03-06 23:26:29,174  INFO [main] nopCommerce:100 - ************* closing browser *****************
+2023-03-06 23:26:36,377  INFO [main] nopCommerce:55 - ************* Launching Browser *****************
+2023-03-06 23:26:36,379  INFO [main] nopCommerce:61 - ************* Opening URL  *****************
+2023-03-06 23:26:38,844  INFO [main] nopCommerce:68 - ************* Prvding user and password *****************
+2023-03-06 23:26:39,451  INFO [main] nopCommerce:75 - ************* click on login *****************
+2023-03-06 23:26:44,291  INFO [main] nopCommerce:86 - ************* Login Passed *****************
+2023-03-06 23:26:44,313  INFO [main] nopCommerce:93 - ************* clicking on logout *****************
+2023-03-06 23:26:51,480  INFO [main] nopCommerce:55 - ************* Launching Browser *****************
+2023-03-06 23:26:51,483  INFO [main] nopCommerce:61 - ************* Opening URL  *****************
+2023-03-06 23:26:53,796  INFO [main] nopCommerce:68 - ************* Prvding user and password *****************
+2023-03-06 23:26:54,220  INFO [main] nopCommerce:75 - ************* click on login *****************
+2023-03-06 23:26:59,914  INFO [main] nopCommerce:86 - ************* Login Passed *****************
+2023-03-06 23:26:59,929  INFO [main] nopCommerce:93 - ************* clicking on logout *****************
+2023-03-06 23:27:05,496  INFO [main] nopCommerce:86 - ************* Login Passed *****************
+2023-03-06 23:27:05,510  INFO [main] nopCommerce:100 - ************* closing browser *****************
+2023-03-06 23:30:50,599 DEBUG [main] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2023-03-06 23:30:50,621 DEBUG [main] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2023-03-06 23:30:50,621 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2023-03-06 23:30:50,630 DEBUG [main] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6175619b
+2023-03-06 23:30:50,654 DEBUG [main] PlatformDependent0:496 - -Dio.netty.noUnsafe: false
+2023-03-06 23:30:50,655 DEBUG [main] PlatformDependent0:1000 - Java version: 19
+2023-03-06 23:30:50,658 DEBUG [main] PlatformDependent0:137 - sun.misc.Unsafe.theUnsafe: available
+2023-03-06 23:30:50,659 DEBUG [main] PlatformDependent0:161 - sun.misc.Unsafe.copyMemory: available
+2023-03-06 23:30:50,660 DEBUG [main] PlatformDependent0:193 - sun.misc.Unsafe.storeFence: available
+2023-03-06 23:30:50,661 DEBUG [main] PlatformDependent0:236 - java.nio.Buffer.address: available
+2023-03-06 23:30:50,662 DEBUG [main] PlatformDependent0:320 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-03-06 23:30:50,664 DEBUG [main] PlatformDependent0:385 - java.nio.Bits.unaligned: available, true
+2023-03-06 23:30:50,666 DEBUG [main] PlatformDependent0:452 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5474c6c
+2023-03-06 23:30:50,667 DEBUG [main] PlatformDependent0:482 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-03-06 23:30:50,668 DEBUG [main] PlatformDependent:1159 - sun.misc.Unsafe: available
+2023-03-06 23:30:50,676 DEBUG [main] PlatformDependent:1270 - maxDirectMemory: 2118123520 bytes (maybe)
+2023-03-06 23:30:50,683 DEBUG [main] PlatformDependent:1289 - -Dio.netty.tmpdir: C:\Users\91758\AppData\Local\Temp (java.io.tmpdir)
+2023-03-06 23:30:50,683 DEBUG [main] PlatformDependent:1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-03-06 23:30:50,685 DEBUG [main] PlatformDependent:1119 - Platform: Windows
+2023-03-06 23:30:50,686 DEBUG [main] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2023-03-06 23:30:50,687 DEBUG [main] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-03-06 23:30:50,689 DEBUG [main] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2023-03-06 23:30:50,690 DEBUG [main] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2023-03-06 23:30:50,692 DEBUG [main] PlatformDependent:1010 - org.jctools-core.MpscChunkedArrayQueue: available
+2023-03-06 23:30:50,721 DEBUG [main] InternalThreadLocalMap:100 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-03-06 23:30:50,721 DEBUG [main] InternalThreadLocalMap:101 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-03-06 23:30:51,025 DEBUG [main] JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-03-06 23:30:51,025 DEBUG [main] JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-03-06 23:30:51,061 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2023-03-06 23:30:51,082 DEBUG [main] NioEventLoop:110 - -Dio.netty.noKeySetOptimization: false
+2023-03-06 23:30:51,088 DEBUG [main] NioEventLoop:111 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-03-06 23:30:51,158 DEBUG [main] PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 8
+2023-03-06 23:30:51,158 DEBUG [main] PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 8
+2023-03-06 23:30:51,161 DEBUG [main] PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2023-03-06 23:30:51,162 DEBUG [main] PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2023-03-06 23:30:51,162 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2023-03-06 23:30:51,163 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2023-03-06 23:30:51,164 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2023-03-06 23:30:51,164 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-03-06 23:30:51,164 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-03-06 23:30:51,165 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-03-06 23:30:51,165 DEBUG [main] PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-03-06 23:30:51,166 DEBUG [main] PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-03-06 23:30:51,180 DEBUG [main] ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2023-03-06 23:30:51,181 DEBUG [main] ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-03-06 23:30:51,181 DEBUG [main] ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-03-06 23:30:54,050 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 11196 (auto-detected)
+2023-03-06 23:30:54,053 DEBUG [Forwarding newSession on session null to remote] NetUtil:142 - -Djava.net.preferIPv4Stack: false
+2023-03-06 23:30:54,053 DEBUG [Forwarding newSession on session null to remote] NetUtil:143 - -Djava.net.preferIPv6Addresses: false
+2023-03-06 23:30:54,079 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:139 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-03-06 23:30:54,082 DEBUG [Forwarding newSession on session null to remote] NetUtil:200 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-03-06 23:30:54,121 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: 28:c6:3f:ff:fe:06:12:ba (auto-detected)
+2023-03-06 23:30:54,181 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2023-03-06 23:30:54,181 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2023-03-06 23:30:54,183 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5cc49889
+2023-03-06 23:30:54,233 DEBUG [AsyncHttpClient-1-2] Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-03-06 23:30:54,233 DEBUG [AsyncHttpClient-1-2] Recycler:86 - -Dio.netty.recycler.ratio: 8
+2023-03-06 23:30:54,233 DEBUG [AsyncHttpClient-1-2] Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2023-03-06 23:30:54,238 DEBUG [AsyncHttpClient-1-2] Recycler:88 - -Dio.netty.recycler.blocking: false
+2023-03-06 23:30:55,934 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-03-06 23:30:56,220 DEBUG [main] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x2c022900110e8392
+2023-03-06 23:30:56,305  INFO [main] nopCommerce:55 - ************* Launching Browser *****************
+2023-03-06 23:30:56,345  INFO [main] nopCommerce:61 - ************* Opening URL  *****************
+2023-03-06 23:30:58,703  INFO [main] nopCommerce:68 - ************* Prvding user and password *****************
+2023-03-06 23:30:59,359  INFO [main] nopCommerce:75 - ************* click on login *****************
+2023-03-06 23:31:05,496  INFO [main] nopCommerce:110 - ********* Verifying Dashboard page title after login successful **************
+2023-03-06 23:31:07,600  INFO [main] nopCommerce:117 - ********* Clicking on customer main menu **************
+2023-03-06 23:31:09,882  INFO [main] nopCommerce:124 - ********* Clicking on customer sub menu **************
+2023-03-06 23:31:16,384  INFO [main] nopCommerce:141 - ********* Adding new customer **************
+2023-03-06 23:31:16,384  INFO [main] nopCommerce:142 - ********* Providing customer details **************
+2023-03-06 23:31:34,102  INFO [main] nopCommerce:163 - ********* Saving customer details **************
+2023-03-06 23:31:39,717  INFO [main] nopCommerce:101 - ************* closing browser *****************
+2023-03-06 23:31:47,333  INFO [main] nopCommerce:55 - ************* Launching Browser *****************
+2023-03-06 23:31:47,339  INFO [main] nopCommerce:61 - ************* Opening URL  *****************
+2023-03-06 23:31:49,696  INFO [main] nopCommerce:68 - ************* Prvding user and password *****************
+2023-03-06 23:31:50,341  INFO [main] nopCommerce:75 - ************* click on login *****************
+2023-03-06 23:31:53,908  INFO [main] nopCommerce:110 - ********* Verifying Dashboard page title after login successful **************
+2023-03-06 23:31:55,937  INFO [main] nopCommerce:117 - ********* Clicking on customer main menu **************
+2023-03-06 23:31:58,181  INFO [main] nopCommerce:124 - ********* Clicking on customer sub menu **************
+2023-03-06 23:32:01,027  INFO [main] nopCommerce:179 - ********* Searching customer details by Email **************
+2023-03-06 23:32:04,767  INFO [main] nopCommerce:101 - ************* closing browser *****************
+2023-03-06 23:32:13,392  INFO [main] nopCommerce:55 - ************* Launching Browser *****************
+2023-03-06 23:32:13,395  INFO [main] nopCommerce:61 - ************* Opening URL  *****************
+2023-03-06 23:32:15,711  INFO [main] nopCommerce:68 - ************* Prvding user and password *****************
+2023-03-06 23:32:16,189  INFO [main] nopCommerce:75 - ************* click on login *****************
+2023-03-06 23:32:22,122  INFO [main] nopCommerce:110 - ********* Verifying Dashboard page title after login successful **************
+2023-03-06 23:32:24,138  INFO [main] nopCommerce:117 - ********* Clicking on customer main menu **************
+2023-03-06 23:32:26,395  INFO [main] nopCommerce:124 - ********* Clicking on customer sub menu **************
+2023-03-06 23:32:28,991  INFO [main] nopCommerce:199 - ********* Searching customer details by Name **************
+2023-03-06 23:32:32,674  INFO [main] nopCommerce:101 - ************* closing browser *****************
+2023-03-06 23:32:40,089  INFO [main] nopCommerce:55 - ************* Launching Browser *****************
+2023-03-06 23:32:40,092  INFO [main] nopCommerce:61 - ************* Opening URL  *****************
+2023-03-06 23:32:42,339  INFO [main] nopCommerce:68 - ************* Prvding user and password *****************
+2023-03-06 23:32:43,110  INFO [main] nopCommerce:75 - ************* click on login *****************
+2023-03-06 23:32:51,059  INFO [main] nopCommerce:86 - ************* Login Passed *****************
+2023-03-06 23:32:54,102  INFO [main] nopCommerce:94 - ************* clicking on logout *****************
+2023-03-06 23:32:59,249  INFO [main] nopCommerce:86 - ************* Login Passed *****************
+2023-03-06 23:32:59,258  INFO [main] nopCommerce:101 - ************* closing browser *****************
+2023-03-06 23:33:07,262  INFO [main] nopCommerce:55 - ************* Launching Browser *****************
+2023-03-06 23:33:07,265  INFO [main] nopCommerce:61 - ************* Opening URL  *****************
+2023-03-06 23:33:08,634  INFO [main] nopCommerce:68 - ************* Prvding user and password *****************
+2023-03-06 23:33:09,165  INFO [main] nopCommerce:75 - ************* click on login *****************
+2023-03-06 23:33:13,331  INFO [main] nopCommerce:86 - ************* Login Passed *****************
+2023-03-06 23:33:16,362  INFO [main] nopCommerce:94 - ************* clicking on logout *****************
+2023-03-06 23:33:21,594  INFO [main] nopCommerce:86 - ************* Login Passed *****************
+2023-03-06 23:33:21,604  INFO [main] nopCommerce:101 - ************* closing browser *****************

@@ -90,6 +90,7 @@ public class Steps extends BaseClass {
 
     @When("User click on Log out link")
     public void user_click_on_log_out_link() throws InterruptedException {
+        Thread.sleep(3000);
         logger.info("************* clicking on logout *****************");
         lp.clickLogout();
         Thread.sleep(3000);
