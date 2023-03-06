@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="testRunner.TestRunner" time="155.927" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="testRunner.TestRunner" time="162.74" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.3.2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -65,9 +65,9 @@
     <property name="sun.stdout.encoding" value="UTF-8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Customers" name="Add new customer" time="53.629"/>
-  <testcase classname="Customers" name="Search Customer by EMailID" time="25.979"/>
-  <testcase classname="Customers" name="Search Customer by Name" time="27.092"/>
-  <testcase classname="Login" name="Successful Login with Valid Credentials" time="26.831"/>
-  <testcase classname="Login" name="Login Data Driven" time="22.396"/>
+  <testcase classname="Customers" name="Add new customer" time="57.375"/>
+  <testcase classname="Customers" name="Search Customer by EMailID" time="29.352"/>
+  <testcase classname="Customers" name="Search Customer by Name" time="26.359"/>
+  <testcase classname="Login" name="Successful Login with Valid Credentials" time="23.425"/>
+  <testcase classname="Login" name="Login Data Driven" time="26.229"/>
 </testsuite>
